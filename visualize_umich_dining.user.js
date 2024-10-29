@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         Visualize Bursley
+// @name         Visualize UMich Dining
 // @namespace    http://tampermonkey.net/
-// @version      2.8
-// @description  Adds buttons to copy food name to clipboard, search in Google Images, and automatically display images using Google Image Search API for specific sections in UMich Dining's Bursley page. It caches images in localStorage for up to 20 days.
+// @version      2.9
+// @description  Adds buttons to copy food name to clipboard, search in Google Images, and automatically display images using Google Image Search API for specific sections in UMich Dining's page. It caches images in localStorage for up to 20 days.
 // @author       zPatronus
-// @match        https://dining.umich.edu/menus-locations/dining-halls/bursley/*
+// @match        https://dining.umich.edu/menus-locations/dining-halls/*
 // @grant        GM_xmlhttpRequest
 // @connect      www.googleapis.com
-// @updateURL    https://github.com/zpatronus/visualize_bursley/raw/main/visualize_bursley.user.js
-// @downloadURL  https://github.com/zpatronus/visualize_bursley/raw/main/visualize_bursley.user.js
+// @updateURL    https://github.com/zpatronus/visualize_umich_dining/raw/main/visualize_umich_dining.user.js
+// @downloadURL  https://github.com/zpatronus/visualize_umich_dining/raw/main/visualize_umich_dining.user.js
 // ==/UserScript==
 
 (function () {
@@ -19,7 +19,7 @@
   let apiCounter = JSON.parse(localStorage.getItem('apiCounterData')) || { count: 0, date: new Date().toDateString() };
   const MAX_API_REQUESTS = 100;
   const CACHE_DURATION = 20; // Cache duration in 20 days
-  const autoSearchSections = ["Signature Maize", "Signature Blue", "Halal", "Two Oceans", "Wild Fire Maize"];
+  const autoSearchSections = ["Signature Maize", "Signature Blue", "Halal", "Two Oceans", "Wild Fire Maize", "Wild Fire Blue"];
   const IMAGE_CACHE = JSON.parse(localStorage.getItem('imageCache')) || {}; // Image cache stored in localStorage
 
   // Check if it's a new day and reset the counter if needed
