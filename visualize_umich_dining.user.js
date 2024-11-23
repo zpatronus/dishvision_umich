@@ -156,7 +156,7 @@
           loveButton.style.padding = '2px 5px';
 
           if (lovedItems.includes(foodName)) {
-            loveButton.style.backgroundColor = 'yellow';
+            loveButton.style.backgroundColor = '#ce540e';
           }
 
           loveButton.addEventListener('click', () => {
