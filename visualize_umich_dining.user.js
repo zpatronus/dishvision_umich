@@ -104,7 +104,7 @@
     const buttons = foodNameToLoveButtons[foodName] || [];
     buttons.forEach(button => {
       if (lovedItems.includes(foodName)) {
-        button.style.backgroundColor = 'yellow';
+        button.style.backgroundColor = '#ce540e';
       } else {
         button.style.backgroundColor = '';
       }
