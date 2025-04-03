@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Visualize UMich Dining
+// @name         DishVision UMich
 // @namespace    http://tampermonkey.net/
 // @version      3.0
 // @description  Adds buttons to copy food name to clipboard, search in Google Images, and automatically display images using Google Image Search API for specific sections in UMich Dining's page. It caches images in localStorage for up to 20 days.
@@ -7,8 +7,8 @@
 // @match        https://dining.umich.edu/menus-locations/dining-halls/*
 // @grant        GM_xmlhttpRequest
 // @connect      www.googleapis.com
-// @updateURL    https://github.com/zpatronus/visualize_umich_dining/raw/main/visualize_umich_dining.user.js
-// @downloadURL  https://github.com/zpatronus/visualize_umich_dining/raw/main/visualize_umich_dining.user.js
+// @updateURL    https://github.com/zpatronus/dishvision_umich/raw/main/dishvision_umich.user.js
+// @downloadURL  https://github.com/zpatronus/dishvision_umich/raw/main/dishvision_umich.user.js
 // ==/UserScript==
 
 (function () {

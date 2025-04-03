@@ -10,15 +10,14 @@ After:
 
 <img src="./README.assets/Screenshot_20241009_205200.png" alt="Screenshot_20241009_205200" style="zoom:50%;" />
 
-
 ## Installation
 
 1. Install a userscript manager like [Tampermonkey](https://www.tampermonkey.net/).
-2. Add the script from [visualize_umich_dining.user.js](https://github.com/zpatronus/visualize_umich_dining/raw/main/visualize_umich_dining.user.js).
+2. Add the script from [dishvision_umich.user.js](https://github.com/zpatronus/dishvision_umich/raw/main/dishvision_umich.user.js).
 3. [Enable "developer mode"](https://www.tampermonkey.net/faq.php?locale=en#Q209) if needed.
 4. Try it out at any [UMich dining hall menu page](https://dining.umich.edu/menus-locations/dining-halls/).
 5. (Optional) [Get a Google API key for free](https://developers.google.com/custom-search/v1/introduction) and enter it in the API key input box in the bottom-right corner. The script will automatically fetch food images.
-    - It seems that you can only get Google API key with your personal account instead of UMich account. 
+    - It seems that you can only get Google API key with your personal account instead of UMich account.
 
 ## How It Works
 
@@ -28,7 +27,6 @@ After:
   - [Get a Google API key for free](https://developers.google.com/custom-search/v1/introduction) and enter it in the API key input box in the bottom-right corner. The script will automatically fetch food images from sections like "Signature Maize," "Signature Blue," "Halal," "Two Oceans," "Wild Fire Maize," and "Wild Fire Blue."
   - You get up to 100 requests per day for free from Google!
   - **Image Caching**: Images are cached locally for up to 20 days, reducing API requests.
-
 
 ## License
 
