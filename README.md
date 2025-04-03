@@ -1,4 +1,4 @@
-# Visualize UMich Dining
+# DishVision UMich
 
 Ever found yourself wondering if today's food at UMich’s dining halls is tasty, but as a non-native speaker, you’re unsure what dishes like "Chicken and Andouille Gumbo" actually look like? Manually searching each item is tedious—**but this script makes it easy!**
 
