@@ -18,6 +18,7 @@ After:
 3. [Enable "developer mode"](https://www.tampermonkey.net/faq.php?locale=en#Q209) if needed.
 4. Try it out at any [UMich dining hall menu page](https://dining.umich.edu/menus-locations/dining-halls/).
 5. (Optional) [Get a Google API key for free](https://developers.google.com/custom-search/v1/introduction) and enter it in the API key input box in the bottom-right corner. The script will automatically fetch food images.
+  - It seems that you can only get Google API key with your personal account instead of UMich account. 
 
 ## How It Works
 
